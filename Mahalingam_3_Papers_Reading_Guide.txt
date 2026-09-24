@@ -1,0 +1,100 @@
+================================================================================
+MAHALINGAM S. (MEMBER 2) - 3 PAPERS READING & PRESENTATION GUIDANCE CHEAT SHEET
+================================================================================
+
+HOW TO USE THIS GUIDE:
+You DO NOT need to read these papers line-by-line from start to finish! 
+Follow this step-by-step reading roadmap (5-10 minutes per paper) to get 
+everything you need for your Literature Review & Review Presentation.
+
+--------------------------------------------------------------------------------
+PAPER 1: OVERHEAD CAMERA INFRASTRUCTURE & ZERO-COST DEPLOYMENT
+--------------------------------------------------------------------------------
+File Name: 1-s2.0-S1877050925026845-main.pdf
+Title: Smart CCTV Exam Monitoring to Detect and Alert Suspicious Activities 
+       Using Deep Transfer Learning
+Publisher: Elsevier Procedia Computer Science (2025)
+
+WHERE TO READ & WHAT TO LOOK FOR:
+1. Abstract (Page 1):
+   - Read the 4-sentence summary.
+   - Note the core idea: Using pre-installed overhead CCTV cameras to monitor 
+     exam halls and detect suspicious actions (looking around, phone use, talking).
+
+2. Section 3 - Methodology / Framework Setup:
+   - Look at the Camera Placement Diagram.
+   - Note how wide-angle overhead cameras record student positions without needing 
+     expensive micro-cameras on every desk.
+
+3. Section 4 - Experimental Results & Accuracy:
+   - Check their accuracy metrics (achieved high classification accuracy across 
+     suspicious behavior categories using transfer learning models).
+
+HOW TO SPEAK ABOUT PAPER 1 IN YOUR PRESENTATION:
+"Paper 1 proves that existing laboratory CCTV and overhead HD cameras can be 
+repurposed for real-time exam monitoring, supporting our zero-hardware-cost 
+deployment model ($0 additional hardware expense)."
+
+
+--------------------------------------------------------------------------------
+PAPER 2: REAL-TIME OBJECT DETECTION & CHEATING TAXONOMY
+--------------------------------------------------------------------------------
+File Name: s41598-025-18412-0.pdf
+Title: Online Exam Cheating Detection and Blockchain Trusted Deposit Based on YOLOv12
+Publisher: Nature Scientific Reports (2025)
+
+WHERE TO READ & WHAT TO LOOK FOR:
+1. Abstract (Page 1):
+   - Focus on how YOLO object detection is used to identify prohibited items 
+     (smartphones, devices) and cheating behaviors in real time.
+
+2. Section on Object Detection Model & Taxonomy:
+   - Check how YOLO bounding boxes identify forbidden objects on student desks.
+   - Note how real-time frame inference catches cheating gadgets immediately.
+
+3. Section on Results & Detection Efficiency:
+   - Note their high detection mAP (mean Average Precision) and real-time FPS score.
+
+HOW TO SPEAK ABOUT PAPER 2 IN YOUR PRESENTATION:
+"Paper 2 validates our 4-class physical malpractice taxonomy, demonstrating that 
+lightweight YOLO models effectively detect prohibited gadgets (phones, notes) 
+in video streams in real time."
+
+
+--------------------------------------------------------------------------------
+PAPER 3: SYSTEM ARCHITECTURE & TAXONOMY OF ACADEMIC DISHONESTY
+--------------------------------------------------------------------------------
+File Name: s44217-026-01275-6.pdf
+Title: A Comprehensive Review of the Changing Landscape of Academic Dishonesty 
+       in Automated Proctoring in the Era of Artificial Intelligence
+Publisher: Discover Education / Springer (2026)
+
+WHERE TO READ & WHAT TO LOOK FOR:
+1. Abstract (Page 1):
+   - Understand how modern AI tools change cheating tactics and why static 
+     webcam proctoring is no longer enough.
+
+2. Section on Visual Proctoring Modalities & Frameworks:
+   - Skim the breakdown of visual sensing: Head Pose Estimation, Eye Gaze, and 
+     Biometric Identity Verification.
+
+3. Section on Research Gaps & Challenges:
+   - Read the two main limitations of current AI proctoring:
+     a) High procurement / hardware costs per student desk.
+     b) Black-box AI alerts (lack of explainability for flagged cheating).
+
+HOW TO SPEAK ABOUT PAPER 3 IN YOUR PRESENTATION:
+"Paper 3 provides the theoretical backing for our 7-stage sequential processing 
+pipeline and highlights key research gaps—specifically high hardware costs and 
+unexplainable AI alerts—which our Grad-CAM and SHAP framework directly resolves."
+
+
+--------------------------------------------------------------------------------
+SUMMARY READING ORDER & TIME ALLOCATION
+--------------------------------------------------------------------------------
+Step 1: Read Paper 1 Abstract + Section 3 (5 mins)  --> Camera Setup ($0 Cost)
+Step 2: Read Paper 2 Abstract + YOLO Section (5 mins) --> Malpractice Taxonomy & Gadgets
+Step 3: Read Paper 3 Abstract + Research Gaps (5 mins) --> System Pipeline & XAI Need
+
+Total Time Needed: ~15 Minutes Total!
+================================================================================

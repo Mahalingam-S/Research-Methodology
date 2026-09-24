@@ -1,0 +1,159 @@
+================================================================================
+TEAM 22 & MAHALINGAM S. - MASTER 5 JOURNAL PAPERS STRUCTURED RESEARCH NOTES
+Course: 19CSE601 Research Methodology | Department of Computer Science & AI
+Project: An AI Framework for Automated Examination Monitoring
+================================================================================
+
+--------------------------------------------------------------------------------
+PART 1: THE STANDARD 6-POINT RESEARCH NOTE-TAKING FRAMEWORK
+--------------------------------------------------------------------------------
+Whenever you take notes for a research paper in your Literature Review / Notebook,
+write down these 6 key sections:
+
+1. PAPER METADATA: Title, Authors, Journal Name, Volume/Issue, Year, DOI.
+2. CORE OBJECTIVE: What specific problem does this paper solve?
+3. METHODOLOGY / MODELS: What exact AI, Computer Vision, or dataset was used?
+4. KEY FINDINGS / METRICS: What accuracy, mAP, FPS, or review conclusions were achieved?
+5. RESEARCH GAPS / LIMITATIONS: What did the paper fail to address or improve?
+6. RELEVANCE TO MY PROJECT: How does this paper back up YOUR specific contribution?
+
+================================================================================
+PART 2: INDIVIDUAL NOTES FOR ALL 5 MASTER JOURNAL PAPERS (VERIFIED FROM PDFs)
+================================================================================
+
+--------------------------------------------------------------------------------
+PAPER 1: OVERHEAD LAB CCTV INFRASTRUCTURE & ZERO-COST DEPLOYMENT
+--------------------------------------------------------------------------------
+1. METADATA (VERIFIED FROM Paper - 1.pdf):
+   - Title: Smart CCTV Exam Monitoring to Detect and Alert Suspicious Activities Using Deep Transfer Learning
+   - Authors: Elly Matul Imaha, Riskyana Dewi Intan Puspitasari, Fadhilah Qalbi Annisa, Harmon Prayogi, Ike Fitriyaningsih
+   - Department/Univ: Dept. of Artificial Intelligence, Faculty of Mathematics and Natural Sciences, State University of Surabaya, Indonesia
+   - Journal: Procedia Computer Science (Elsevier), Vol. 269, pp. 805–814, 2025.
+   - DOI: https://doi.org/10.1016/j.procs.2025.09.023
+
+2. CORE OBJECTIVE:
+   - Automating physical exam hall invigilation by repurposing pre-installed overhead laboratory CCTV cameras, eliminating the need to purchase dedicated per-desk micro-cameras.
+
+3. METHODOLOGY & MODELS:
+   - Deep Transfer Learning on wide-angle overhead CCTV video streams.
+   - Spatial feature classification for detecting physical cheating postures (looking around, device handling, student-to-student interaction).
+
+4. KEY FINDINGS & METRICS:
+   - Proves room-level overhead CCTV camera feeds provide sufficient line-of-sight to monitor mu
+ltiple candidates simultaneously with high classification accuracy.
+
+5. RESEARCH GAPS / LIMITATIONS:
+   - Lacks a multi-condition false-positive rule engine to distinguish benign question self-reading from covert sideways talking.
+   - Provides binary alerts without Explainable AI (XAI) feature visual attributions.
+
+6. RELEVANCE TO MY ROLE (MEMBER 2):
+   - Primary empirical justification for our $0 Additional Hardware Expense overhead camera processing pipeline in laboratory halls.
+
+
+--------------------------------------------------------------------------------
+PAPER 2: REAL-TIME OBJECT DETECTION & BLOCKCHAIN EVIDENCE INTEGRITY
+--------------------------------------------------------------------------------
+1. METADATA (VERIFIED FROM Paper - 2.pdf):
+   - Title: Online exam cheating detection and blockchain trusted deposit based on YOLOv12
+   - Authors: Haoliang Wang, Zarina Shukur, Khairul Akram Zainol Ariffin, Renhao Xiao & Lili Wang
+   - Journal: Scientific Reports (Nature Portfolio), Vol. 15, Art. no. 33236, 2025.
+   - DOI: https://doi.org/10.1038/s41598-025-18412-0
+
+2. CORE OBJECTIVE:
+   - Detecting small prohibited gadgets on candidate desks in real-time video feeds and creating an immutable, audit-ready evidence log.
+
+3. METHODOLOGY & MODELS:
+   - Lightweight YOLOv12 deep learning object detector (modified A2C2f backbone and C3Ghost head) fine-tuned for small gadget bounding-box prediction.
+   - Hyperledger Fabric Consortium Blockchain & IPFS Distributed Storage for immutably hashing detected malpractice video frames.
+
+4. KEY FINDINGS & METRICS:
+   - Achieves high mAP (mean Average Precision) and real-time frame rates (>=25 FPS) for detecting smartphones, smartwatches, and extra papers.
+   - Demonstrates that cryptographic hashing prevents evidence tampering during disciplinary reviews.
+
+5. RESEARCH GAPS / LIMITATIONS:
+   - High server compute requirements for continuous YOLOv12 inference across dozens of desks.
+   - Does not combine gadget detection with head pose angle (Yaw) or lip aspect ratio (MAR) to evaluate co-occurring behavioral context.
+
+6. RELEVANCE TO MY ROLE (MEMBER 2 & TEAM 22):
+   - Directly validates our 4-Class Physical Malpractice Taxonomy for prohibited gadget detection using lightweight YOLO, and provides architectural backing for Vidyasagar's tamper-proof evidence log.
+
+
+--------------------------------------------------------------------------------
+PAPER 3: TAXONOMY & EVOLUTION OF ACADEMIC DISHONESTY IN THE AI ERA
+--------------------------------------------------------------------------------
+1. METADATA (VERIFIED FROM Paper - 3.pdf):
+   - Title: A comprehensive review of the changing landscape of academic dishonesty in automated proctoring in the era of artificial intelligence
+   - Authors: Manit Malhotra, Indu Chhabra
+   - Department/Univ: Dept. of Computer Science & Applications, Panjab University, Chandigarh, India
+   - Journal: Discover Education (Springer Nature), Vol. 5, Art. no. 236, 2026.
+   - DOI: https://doi.org/10.1007/s44217-026-01275-6
+
+2. CORE OBJECTIVE:
+   - Analyzing how modern AI technologies change exam cheating tactics and reviewing automated visual/audio proctoring frameworks.
+
+3. METHODOLOGY & MODELS:
+   - Comprehensive qualitative review establishing cheating taxonomies across physical and digital exam environments.
+   - Evaluates passive recording vs active multi-sensory AI proctoring architectures.
+
+4. KEY FINDINGS & METRICS:
+   - Categorizes physical malpractice into identity fraud, gadget concealment, visual distraction, and peer communication.
+   - Proves that single-camera webcam monitoring is insufficient for institutional exam halls.
+
+5. RESEARCH GAPS / LIMITATIONS:
+   - Identifies two major industry bottlenecks: (1) High per-desk procurement costs, and (2) "Black-Box" AI alerts lacking explainability.
+
+6. RELEVANCE TO MY ROLE (MEMBER 2 & TEAM 22):
+   - Provides theoretical backing for our 7-Stage Sequential Processing Pipeline and justifies integrating Explainable AI (Grad-CAM & SHAP) to resolve the black-box alert issue.
+
+
+--------------------------------------------------------------------------------
+PAPER 4: DECADE SYSTEMATIC REVIEW OF AUTOMATED ONLINE PROCTORING
+--------------------------------------------------------------------------------
+1. METADATA (VERIFIED FROM Paper - 4.pdf):
+   - Title: Ensuring academic integrity through automated online exam proctoring: a decade long systematic review
+   - Authors: Manit Malhotra, Indu Chhabra
+   - Department/Univ: Dept. of Computer Science & Applications, Panjab University, Chandigarh, India
+   - Journal: Discover Education (Springer Nature), Vol. 5, Art. no. 207, 2026.
+   - DOI: https://doi.org/10.1007/s44217-026-01224-3
+
+2. CORE OBJECTIVE:
+   - Systematic evaluation of 80 peer-reviewed studies (2014–2024) to synthesize automated proctoring methodologies, biometric tracking, and false alarm reduction.
+
+3. METHODOLOGY & MODELS:
+   - PRISMA systematic review methodology analyzing facial authentication, gaze tracking, head pose rotation, and temporal decision fusion engines.
+
+4. KEY FINDINGS & METRICS:
+   - Demonstrates that temporal window decision engines (aggregating frame-level anomalies over time) significantly reduce false alarms compared to instant single-frame triggers.
+
+5. RESEARCH GAPS / LIMITATIONS:
+   - The vast majority of 80 reviewed studies focus on isolated home webcams rather than institutional multi-candidate laboratory room surveillance.
+
+6. RELEVANCE TO MY ROLE (MEMBER 2 & TEAM 22):
+   - Master systematic review reference cited across all Team 22 literature sections to justify our Calibrated Temporal Risk Fusion Model (Risk_Total = 0.40*Auth + 0.40*Object + 0.20*Pose).
+
+
+--------------------------------------------------------------------------------
+PAPER 5: MULTI-FACET FACIAL RECOGNITION & BIOMETRIC AUTHENTICATION
+--------------------------------------------------------------------------------
+1. METADATA (VERIFIED FROM Paper - 5.pdf):
+   - Title: Development of a multi-facet facial recognition model for institutional attendance activities during examination scenario
+   - Authors: Kufre Esenowo Jack, Victor Samuel Rizama, Kehinde Rahmon Adebayo, James Garba Ambafi, Rufai Ahmad Olayemi, John Oluwatobi Olaoye, Damilola Olanipekun Tunbosun, Adeshina Victor Olawuyi
+   - Department/Univ: Dept. of Mechatronics Engineering, Federal University of Technology Minna, Nigeria
+   - Journal: Discover Artificial Intelligence (Springer Nature), Vol. 6, Art. no. 746, 2026.
+   - DOI: https://doi.org/10.1007/s44163-026-01474-y
+
+2. CORE OBJECTIVE:
+   - Robust candidate biometric identity verification and attendance tracking under variable institutional exam room illumination and facial pose variations.
+
+3. METHODOLOGY & MODELS:
+   - Deep feature vector extraction (ResNet-based) coupled with K-Nearest Neighbors (KNN) classification for multi-facet facial recognition.
+
+4. KEY FINDINGS & METRICS:
+   - Achieves 99.00% accuracy in institutional student authentication despite changes in lighting, facial accessories (glasses/masks), and pose angles.
+
+5. RESEARCH GAPS / LIMITATIONS:
+   - Primary focus is pre-exam identity authentication and attendance check-in, rather than continuous desk-level physical malpractice tracking.
+
+6. RELEVANCE TO MY ROLE (MEMBER 2 & TEAM 22):
+   - Grounding for Sibichandaru's initial authentication layer and validates extracting head pose feature vectors (Yaw/Pitch/Roll) for our gaze deviation rule engine.
+================================================================================

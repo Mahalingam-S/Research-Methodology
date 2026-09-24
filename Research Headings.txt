@@ -1,0 +1,43 @@
+Title
+↓
+Introduction & Background
+↓
+Literature Review
+↓
+Problem Statement
+↓
+Research Gap
+↓
+Need for Study
+↓
+Aim
+↓
+Objectives
+↓
+Research Questions
+↓
+Hypothesis
+↓
+Methodology
+↓
+Proposed Framework / System Architecture
+↓
+Data Collection & Preprocessing
+↓
+Implementation & Experimentation
+↓
+Evaluation Metrics
+↓
+Results & Analysis
+↓
+Hypothesis Testing
+↓
+Discussion
+↓
+Research Contribution / Novelty
+↓
+Limitations & Future Scope
+↓
+Conclusion
+↓
+References

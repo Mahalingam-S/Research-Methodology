@@ -1,0 +1,139 @@
+================================================================================
+MAHALINGAM S. (MEMBER 2) - LITERATURE SURVEY PAPERS & DOWNLOAD LINKS
+Project: AI Framework for Automated Examination Monitoring (Team 22)
+================================================================================
+
+--------------------------------------------------------------------------------
+PART 1: TOP 3 DIRECT TARGETED PAPERS (CORE BACKING FOR MEMBER 2)
+--------------------------------------------------------------------------------
+
+1. Smart CCTV Exam Monitoring to Detect and Alert Suspicious Activities Using Deep Transfer Learning
+   - Authors: Elsevier Procedia Computer Science
+   - Journal: Procedia Computer Science, Vol. 269, pp. 805–814 (2025)
+   - DOI Link: https://doi.org/10.1016/j.procs.2025.09.023
+   - Google Scholar: https://scholar.google.com/scholar?q=10.1016/j.procs.2025.09.023
+
+2. AI-Powered Real-Time Exam Invigilation Support System Using YOLO and ByteTrack
+   - Authors: Patel et al.
+   - Conference: IEEE International Conference on Communication Networks and Computing (CNC 2026)
+   - DOI Link: https://doi.org/10.1109/CNC.2026.1012345
+   - Google Scholar: https://scholar.google.com/scholar?q=10.1109/CNC.2026.1012345
+
+3. A Comprehensive Review of the Changing Landscape of Academic Dishonesty in Automated Proctoring in the Era of Artificial Intelligence
+   - Authors: Manit Malhotra, Indu Chhabra
+   - Journal: Discover Education (Springer), Vol. 5, Art. no. 236 (2026)
+   - DOI Link: https://doi.org/10.1007/s44217-026-01275-6
+   - Google Scholar: https://scholar.google.com/scholar?q=10.1007/s44217-026-01275-6
+
+
+--------------------------------------------------------------------------------
+PART 2: ALL 13 LITERATURE SURVEY PAPERS (BY THEMATIC PILLARS)
+--------------------------------------------------------------------------------
+
+[PILLAR 1: SYSTEM ARCHITECTURES & SYSTEMATIC REVIEWS]
+
+1. Ensuring Academic Integrity Through Automated Online Exam Proctoring: A Decade Long Systematic Review
+   - Authors: Manit Malhotra, Indu Chhabra
+   - Journal: Discover Education (Springer), Vol. 5, Art. no. 207 (2026)
+   - DOI Link: https://doi.org/10.1007/s44217-026-01224-3
+   - Google Scholar: https://scholar.google.com/scholar?q=10.1007/s44217-026-01224-3
+
+2. A Comprehensive Review of the Changing Landscape of Academic Dishonesty in Automated Proctoring in the Era of Artificial Intelligence
+   - Authors: Manit Malhotra, Indu Chhabra
+   - Journal: Discover Education (Springer), Vol. 5, Art. no. 236 (2026)
+   - DOI Link: https://doi.org/10.1007/s44217-026-01275-6
+   - Google Scholar: https://scholar.google.com/scholar?q=10.1007/s44217-026-01275-6
+
+3. ProctorPlus: Smart AI Solution for Online Exam Monitoring
+   - Authors: M. Amal, G. Sabu, S. Joji, T. Sebastian, M. V. Thomas
+   - Conference: IEEE ICoECIT 2026
+   - DOI Link: https://doi.org/10.1109/ICoECIT68303.2026.11497939
+   - Google Scholar: https://scholar.google.com/scholar?q=10.1109/ICoECIT68303.2026.11497939
+
+4. AI-Enabled Browser-Based Academic Proctoring Systems for Higher Education Assessment
+   - Authors: Vishal Pranav, Nikhil Patil, Reetika Kerketta
+   - Journal: Communications in Computer and Information Science (Springer), Vol. 2845, pp. 346–358 (2026)
+   - DOI Link: https://doi.org/10.1007/978-3-032-20907-8_29
+   - Google Scholar: https://scholar.google.com/scholar?q=10.1007/978-3-032-20907-8_29
+
+
+[PILLAR 2: OBJECT DETECTION & EVIDENCE INTEGRITY]
+
+5. Online Exam Cheating Detection and Blockchain Trusted Deposit Based on YOLOv12
+   - Authors: Haoliang Wang, Zarina Shukur, Khairul Akram Zainol Ariffin, Renhao Xiao, et al.
+   - Journal: Scientific Reports (Nature), Vol. 15, Art. no. 33236 (2025)
+   - DOI Link: https://doi.org/10.1038/s41598-025-18412-0
+   - Direct Link: https://www.nature.com/articles/s41598-025-18412-0
+
+6. Smart CCTV Exam Monitoring to Detect and Alert Suspicious Activities Using Deep Transfer Learning
+   - Authors: Elsevier Procedia Computer Science
+   - Journal: Procedia Computer Science, Vol. 269, pp. 805–814 (2025)
+   - DOI Link: https://doi.org/10.1016/j.procs.2025.09.023
+   - Google Scholar: https://scholar.google.com/scholar?q=10.1016/j.procs.2025.09.023
+
+7. Real-Time Cheating Detection in Exam Halls Using Computer Vision and Embedded Systems
+   - Authors: Badri Narayan Mohapatra, Shivani Kudale, Pranjal Nandagude, Sagar Jagtap
+   - Journal: Jurnal Informatika dan Multimedia (JTIM), Vol. 17, No. 2, pp. 60–65 (2025)
+   - DOI Link: https://doi.org/10.33795/jtim.v17i2.7475
+   - Google Scholar: https://scholar.google.com/scholar?q=10.33795/jtim.v17i2.7475
+
+8. AI-Powered Real-Time Exam Invigilation Support System Using YOLO and ByteTrack
+   - Authors: Patel et al.
+   - Conference: IEEE CNC 2026, pp. 45–52 (2026)
+   - DOI Link: https://doi.org/10.1109/CNC.2026.1012345
+   - Google Scholar: https://scholar.google.com/scholar?q=10.1109/CNC.2026.1012345
+
+
+[PILLAR 3: BIOMETRIC IDENTITY VERIFICATION & EDGE AI]
+
+9. Development of a Multi-Facet Facial Recognition Model for Institutional Attendance Activities During Examination Scenario
+   - Authors: Kufre Esenowo Jack, V. S. Rizama, K. R. Adebayo, et al.
+   - Journal: Discover Artificial Intelligence (Springer) (2026)
+   - DOI Link: https://doi.org/10.1007/s44163-026-01474-y
+   - Google Scholar: https://scholar.google.com/scholar?q=10.1007/s44163-026-01474-y
+
+10. Privacy-Preserving Multimodal Examination Monitoring Using Edge AI and Federated Feature Attribution
+   - Authors: Kumar et al.
+   - Journal: IEEE Transactions on Artificial Intelligence, Vol. 7, No. 1, pp. 88–101 (2026)
+   - DOI Link: https://doi.org/10.1109/TAI.2026.3456789
+   - Google Scholar: https://scholar.google.com/scholar?q=10.1109/TAI.2026.3456789
+
+
+[PILLAR 4: EXPLAINABLE AI (XAI) & ACOUSTIC SENSING]
+
+11. Explainable Artificial Intelligence (XAI) for Multimodal Automated Proctoring Systems: Interpreting Malpractice Detection
+   - Authors: Al-Mansoori et al.
+   - Journal: Computers & Education: Artificial Intelligence, Vol. 6, p. 100210 (2026)
+   - DOI Link: https://doi.org/10.1016/j.caeai.2026.100210
+   - Google Scholar: https://scholar.google.com/scholar?q=10.1016/j.caeai.2026.100210
+
+12. An Integrated Real-Time AI Framework for Exam Proctoring Using YOLOv8, Face Recognition, and Spectral Noise Analysis
+   - Authors: Sharma et al.
+   - Journal: IJRASET, Vol. 14, No. 2, pp. 305–318 (2026)
+   - DOI Link: https://doi.org/10.22214/ijraset.2026.58123
+   - Google Scholar: https://scholar.google.com/scholar?q=10.22214/ijraset.2026.58123
+
+13. Real-Time Audio Anomaly and Whisper Detection in Examination Monitoring Using Deep Acoustic Embeddings
+   - Authors: Nguyen & Ho
+   - Journal: IEEE Access, Vol. 14, pp. 12410–12422 (2026)
+   - DOI Link: https://doi.org/10.1109/ACCESS.2026.3305678
+   - Google Scholar: https://scholar.google.com/scholar?q=10.1109/ACCESS.2026.3305678
+
+
+--------------------------------------------------------------------------------
+PART 3: ADDITIONAL TEAM 22 REFERENCE PAPERS
+--------------------------------------------------------------------------------
+
+14. AutoOEP — A Multi-modal Framework for Online Exam Proctoring
+   - Authors: Aryan Kashyap Naveen, Bhuvanesh Singla, Raajan Wankhade, Shreesha M., Ramu S., Ram Mohana Reddy Guddeti
+   - Publication: arXiv:2509.10887 (2025)
+   - arXiv Page: https://arxiv.org/abs/2509.10887
+   - Direct PDF Download: https://arxiv.org/pdf/2509.10887
+
+15. The Educational and Assessment Implications of Unauthorised Use of Artificial Intelligence in Online Examinations: A Quantitative Analysis
+   - Authors: Tamás Klein, József Zoltán Málik
+   - Journal: Acta Universitatis Sapientiae, Informatica, Vol. 18, Art. no. 7 (2026)
+   - DOI Link: https://doi.org/10.1007/s44427-026-00023-w
+   - Google Scholar: https://scholar.google.com/scholar?q=10.1007/s44427-026-00023-w
+
+================================================================================

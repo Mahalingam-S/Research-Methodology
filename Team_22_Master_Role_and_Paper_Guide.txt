@@ -1,0 +1,106 @@
+================================================================================
+TEAM 22 — COMPLETE RESEARCH & IMPLEMENTATION MASTER GUIDE
+Project: An AI Framework for Automated Examination Monitoring Using Facial 
+         Recognition, Object Detection, and Spatial-Temporal Behavior Analysis
+================================================================================
+
+HOW TO USE THIS DOCUMENT:
+Share this single guide with all 3 team members (Sibichandaru, Mahalingam, Vidyasagar).
+All three members will cite the SAME 5 master papers (2025-2026), ensuring 100% 
+cohesion across your literature reviews, PPT presentations, and final paper.
+
+
+================================================================================
+1. TEAM MEMBERS & TECHNICAL ROLES OVERVIEW
+================================================================================
+
+--------------------------------------------------------------------------------
+MEMBER 1: Sibichandaru.C (Roll No: cb.sc.p2cse26027)
+Role: Identity Verification & System Architecture
+--------------------------------------------------------------------------------
+Core Deliverables:
+- Student authentication layer before exam starts (Face Recognition / ResNet / Haar Cascade).
+- Identity anti-spoofing & multi-person detection (flagging unauthorized extra people).
+- Master system architecture pipeline & digital session logging.
+
+How Member 1 Uses the 5 Shared Papers:
+1. Paper 5 (Springer 2026): Facial recognition architecture & attendance verification under lab lighting.
+2. Paper 4 (Springer 2026): Decade systematic review justifying the master system pipeline.
+3. Paper 3 (Springer 2026): Academic dishonesty definitions & identity fraud background.
+4. Paper 1 (Elsevier 2025): Integration of face recognition with overhead camera feeds.
+5. Paper 2 (Nature 2025): Linking student identity tokens to detected malpractice events.
+
+
+--------------------------------------------------------------------------------
+MEMBER 2: Mahalingam.S (Roll No: cb.sc.p2cse26016) [YOUR ROLE]
+Role: Physical Malpractice & Overhead CCTV Vision
+--------------------------------------------------------------------------------
+Core Deliverables:
+- $0 Extra Hardware Cost Overhead CCTV Pipeline (repurposing existing lab/room cameras).
+- Real-Time Prohibited Gadget Detection using YOLO (v8/v11/v12) (smartphones, notes, cheat sheets).
+- Multi-Condition Rule Engine (Head Pose + Gaze Direction + Lip Aspect Ratio MAR):
+  * Eliminates false positives when students read questions to themselves.
+  * Only flags malpractice if mouth movement is accompanied by head turn >30° toward a neighbor.
+
+How Member 2 Uses the 5 Shared Papers:
+1. Paper 1 (Elsevier 2025): Primary reference for $0 hardware cost overhead CCTV desk monitoring.
+2. Paper 2 (Nature 2025): Primary reference for YOLO gadget bounding-box detection & mAP metrics.
+3. Paper 3 (Springer 2026): Physical cheating taxonomy (visual distraction, gadget usage, passing items).
+4. Paper 4 (Springer 2026): Comparing room-level CCTV coverage vs individual webcam limits.
+5. Paper 5 (Springer 2026): Reference head pose angle extraction for gaze deviation.
+
+
+--------------------------------------------------------------------------------
+MEMBER 3: Vidyasagar.S (Roll No: cb.sc.p2aie26040)
+Role: Multimodal Feature Fusion & Evidence Integrity
+--------------------------------------------------------------------------------
+Core Deliverables:
+- Multimodal Feature Fusion Engine (combining face ID + YOLO detection + pose deviation + lip MAR into a single cheating risk score).
+- Temporal Window Scoring (LSTM / moving average) to prevent false alerts from single-frame glitches.
+- Tamper-Proof Evidence Deposit & Proctor Dashboard (storing verified alert snapshots for institutional audit).
+
+How Member 3 Uses the 5 Shared Papers:
+1. Paper 2 (Nature 2025): Primary reference for trusted evidence deposit & temporal alert verification.
+2. Paper 3 (Springer 2026): Multimodal proctoring framework & risk thresholding.
+3. Paper 4 (Springer 2026): Proctoring evaluation metrics & false alarm reduction.
+4. Paper 1 (Elsevier 2025): Real-time proctor alert generation & dashboard notifications.
+5. Paper 5 (Springer 2026): Feature vector integration.
+
+
+================================================================================
+2. THE 5 SHARED MASTER REFERENCE PAPERS (OFFICIAL 2025-2026)
+================================================================================
+
+All 5 papers are downloaded and available in: y:\RM - Research\Papers
+
+PAPER 1:
+Title: Smart CCTV Exam Monitoring to Detect and Alert Suspicious Activities Using Deep Transfer Learning
+Publisher: Elsevier Procedia Computer Science, Vol. 269, pp. 805–814 (2025/2026)
+DOI: https://doi.org/10.1016/j.procs.2025.09.023
+Local File: y:\RM - Research\Papers\1-s2.0-S1877050925026845-main.pdf
+
+PAPER 2:
+Title: Online Exam Cheating Detection and Blockchain Trusted Deposit Based on YOLOv12
+Publisher: Nature Scientific Reports, Vol. 15, Art. no. 33236 (2025/2026)
+DOI: https://doi.org/10.1038/s41598-025-18412-0
+Local File: y:\RM - Research\Papers\s41598-025-18412-0.pdf
+
+PAPER 3:
+Title: A Comprehensive Review of the Changing Landscape of Academic Dishonesty in Automated Proctoring in the Era of AI
+Publisher: Springer Discover Education, Vol. 5, Art. no. 236 (2026)
+DOI: https://doi.org/10.1007/s44217-026-01275-6
+Local File: y:\RM - Research\Papers\s44217-026-01275-6.pdf
+
+PAPER 4:
+Title: Ensuring Academic Integrity Through Automated Online Exam Proctoring: A Decade Long Systematic Review
+Publisher: Springer Discover Education, Vol. 5, Art. no. 207 (2026)
+DOI: https://doi.org/10.1007/s44217-026-01224-3
+Local File: y:\RM - Research\Papers\s44217-026-01224-3_Automated_Online_Exam_Proctoring_Decade_Review.pdf
+
+PAPER 5:
+Title: Development of a Multi-Facet Facial Recognition Model for Institutional Attendance Activities During Examination Scenario
+Publisher: Springer Discover Artificial Intelligence (2026)
+DOI: https://doi.org/10.1007/s44163-026-01474-y
+Local File: y:\RM - Research\Papers\s44163-026-01474-y_Facial_Recognition_Exam_Attendance.pdf
+
+================================================================================

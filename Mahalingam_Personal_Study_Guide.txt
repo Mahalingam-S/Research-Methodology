@@ -1,0 +1,121 @@
+================================================================================
+MAHALINGAM S. (MEMBER 2) — PERSONAL TECHNICAL STUDY GUIDE & CHEAT SHEET
+Project: An AI Framework for Automated Examination Monitoring Using Facial 
+         Recognition, Object Detection, and Spatial-Temporal Behavior Analysis
+================================================================================
+
+YOUR ROLE IN TEAM 22:
+Physical Malpractice Detection, Overhead CCTV Computer Vision & Rule Engine
+
+
+================================================================================
+1. THE 4 TECHNICAL COMPONENTS YOU MUST MASTER
+================================================================================
+
+--------------------------------------------------------------------------------
+COMPONENT 1: YOLO OBJECT DETECTION (v8 / v11 / v12)
+--------------------------------------------------------------------------------
+- What it does: Detects physical prohibited items on student desks (smartphones, 
+  smartwatches, cheat sheets, extra papers).
+- How it works: YOLO is a single-stage object detector that splits the video 
+  frame into a grid and simultaneously predicts bounding boxes (x, y, w, h) and 
+  class confidence scores.
+- Key Metrics to Memorize:
+  * mAP@0.5 (Mean Average Precision): Measures detection accuracy across object 
+    classes at 50% IoU.
+  * IoU (Intersection over Union): Area of Overlap / Area of Union.
+  * FPS (Frames Per Second): Real-time speed (>= 25 FPS).
+
+
+--------------------------------------------------------------------------------
+COMPONENT 2: OVERHEAD CCTV PERSPECTIVE & ROI DESK SEGMENTATION
+--------------------------------------------------------------------------------
+- What it does: Uses 1 ceiling CCTV camera feed to monitor 20–30 student desks 
+  simultaneously.
+- How it works: Defines a Region of Interest (ROI) bounding box around each desk 
+  (Desk_1, Desk_2, ..., Desk_N).
+- Why it's crucial: Achieves $0 ADDITIONAL HARDWARE COST because institutions do 
+  not need to purchase or wire individual webcams for every student computer.
+
+
+--------------------------------------------------------------------------------
+COMPONENT 3: HEAD POSE ESTIMATION (YAW, PITCH, ROLL)
+--------------------------------------------------------------------------------
+- What it does: Tracks candidate 3D head orientation in real time.
+- Key Angles:
+  * Yaw: Horizontal head rotation (left/right). Main angle for looking at neighbor.
+  * Pitch: Vertical head rotation (up/down). Looking down at desk vs up.
+  * Roll: Head tilt (left/right).
+- Threshold: Yaw angle > 30° toward adjacent desk = Gaze Deviation.
+
+
+--------------------------------------------------------------------------------
+COMPONENT 4: MOUTH ASPECT RATIO (MAR) & LIP MOTION
+--------------------------------------------------------------------------------
+- What it does: Calculates mouth opening frequency to detect talking.
+- Formula:
+  MAR = (|P2 - P8| + |P3 - P7|) / (2 * |P1 - P5|)
+  (where P1...P8 are 2D/3D facial landmark points around lips).
+- Threshold: MAR > 0.35 sustained over 5 consecutive frames = Mouth Opening.
+
+
+================================================================================
+2. YOUR NOVELTY FEATURE: FALSE POSITIVE ELIMINATION
+================================================================================
+
+- The Problem: If a student silently reads a difficult question to themselves, 
+  their lips move (MAR > 0.35). Naive computer vision models falsely mark them 
+  as cheating.
+
+- Your Solution (Multi-Condition Rule Engine):
+  Cheating Alert = (MAR > 0.35) AND (Head Yaw Rotation > 30°) AND (Gaze Target != Own Desk)
+
+- Why Panel Will Praise This: It proves you designed a smart system that 
+  understands real exam conditions instead of just building a naive tutorial.
+
+
+================================================================================
+3. YOUR 2 CORE BASELINE PAPERS
+================================================================================
+
+1. Elsevier Procedia Computer Science (2025/2026):
+   Title: Smart CCTV Exam Monitoring to Detect and Alert Suspicious Activities 
+          Using Deep Transfer Learning
+   File: y:\RM - Research\Papers\1-s2.0-S1877050925026845-main.pdf
+   Why it's yours: Validates using high-angle overhead CCTV for desk monitoring 
+   ($0 hardware modification).
+
+2. Nature Scientific Reports (2025/2026):
+   Title: Online Exam Cheating Detection and Blockchain Trusted Deposit Based on YOLOv12
+   File: y:\RM - Research\Papers\s41598-025-18412-0.pdf
+   Why it's yours: Provides the benchmark for YOLO bounding-box detection of 
+   phones, smartwatches, and notes.
+
+
+================================================================================
+4. 2-MINUTE PRESENTATION SCRIPT FOR MAHALINGAM
+================================================================================
+
+"Good morning Sir and members of the panel. I am Mahalingam S., representing Member 2 
+of Team 22.
+
+My research domain focuses on Physical Malpractice Detection and Overhead CCTV Vision.
+
+First, addressing the hardware cost bottleneck, our framework utilizes pre-installed 
+overhead laboratory CCTV cameras, achieving room-level candidate supervision at $0 
+additional hardware expense.
+
+Second, for physical cheating detection, we deploy a lightweight YOLO model fine-tuned 
+for real-time bounding-box detection of prohibited gadgets such as smartphones, 
+smartwatches, and notes.
+
+Third, to solve the major industry challenge of false positives—where students reading 
+questions silently to themselves get falsely flagged—we implemented a Gaze-Pose-Lip 
+MAR Rule Engine. Lip movement is only flagged if co-occurring with a head rotation 
+exceeding 30 degrees toward an adjacent student.
+
+This multi-layered approach delivers non-intrusive, accurate, and cost-effective 
+malpractice detection, supported by our core baseline papers from Elsevier and Nature.
+
+Thank you!"
+================================================================================

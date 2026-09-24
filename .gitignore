@@ -1,0 +1,15 @@
+# Omit code, scripts, test execution pipelines, datasets, and temporary files
+*.py
+src/
+dataset/
+test_results/
+scratch/
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
+
+# Omit other team members' individual presentations (keeping Mahalingam S's contributions)
+Member_1_Sibichandaru_Review_Presentation.pptx
+Member_3_Vidyasagar_Review_Presentation.pptx
